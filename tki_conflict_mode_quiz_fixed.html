@@ -1,0 +1,351 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Thomas-Kilmann Conflict Mode Questionnaire</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-900">
+  <div class="max-w-4xl mx-auto p-6">
+    <h1 class="text-3xl font-bold mb-4 text-center">Thomas-Kilmann Conflict Mode Questionnaire</h1>
+    <p class="mb-6 text-center">Consider situations in which you find your wishes differing from those of another person. How do you usually respond to such situations?</p>
+    <form id="quizForm" class="space-y-6">
+
+      <div class="p-4 bg-white rounded shadow">
+        <p class="font-medium mb-2">Item 1</p>
+        <label class="block mb-2">
+          <input type="radio" name="q1" value="A" data-style="Avoiding" required class="mr-2">A) There are times when I let others take responsibility for solving the problem.
+        </label>
+        <label class="block">
+          <input type="radio" name="q1" value="B" data-style="Accommodating" class="mr-2">B) Rather than negotiate the things on which we disagree, I try to stress those things upon which we both agree.
+        </label>
+      </div>
+    
+      <div class="p-4 bg-white rounded shadow">
+        <p class="font-medium mb-2">Item 2</p>
+        <label class="block mb-2">
+          <input type="radio" name="q2" value="A" data-style="Compromising" required class="mr-2">A) I try to find a compromise solution.
+        </label>
+        <label class="block">
+          <input type="radio" name="q2" value="B" data-style="Collaborating" class="mr-2">B) I attempt to deal with all of another's and my concerns.
+        </label>
+      </div>
+    
+      <div class="p-4 bg-white rounded shadow">
+        <p class="font-medium mb-2">Item 3</p>
+        <label class="block mb-2">
+          <input type="radio" name="q3" value="A" data-style="Competing" required class="mr-2">A) I am usually firm in pursuing my goals.
+        </label>
+        <label class="block">
+          <input type="radio" name="q3" value="B" data-style="Accommodating" class="mr-2">B) I might try to soothe the other's feelings and preserve our relationship.
+        </label>
+      </div>
+    
+      <div class="p-4 bg-white rounded shadow">
+        <p class="font-medium mb-2">Item 4</p>
+        <label class="block mb-2">
+          <input type="radio" name="q4" value="A" data-style="Compromising" required class="mr-2">A) I try to find a compromise solution.
+        </label>
+        <label class="block">
+          <input type="radio" name="q4" value="B" data-style="Accommodating" class="mr-2">B) I sometimes sacrifice my own wishes for the wishes of the other person.
+        </label>
+      </div>
+    
+      <div class="p-4 bg-white rounded shadow">
+        <p class="font-medium mb-2">Item 5</p>
+        <label class="block mb-2">
+          <input type="radio" name="q5" value="A" data-style="Collaborating" required class="mr-2">A) I consistently seek the other's help in working out a solution.
+        </label>
+        <label class="block">
+          <input type="radio" name="q5" value="B" data-style="Avoiding" class="mr-2">B) I try to do what is necessary to avoid useless tensions.
+        </label>
+      </div>
+    
+      <div class="p-4 bg-white rounded shadow">
+        <p class="font-medium mb-2">Item 6</p>
+        <label class="block mb-2">
+          <input type="radio" name="q6" value="A" data-style="Avoiding" required class="mr-2">A) I try to avoid creating unpleasantness for myself.
+        </label>
+        <label class="block">
+          <input type="radio" name="q6" value="B" data-style="Competing" class="mr-2">B) I try to win my position.
+        </label>
+      </div>
+    
+      <div class="p-4 bg-white rounded shadow">
+        <p class="font-medium mb-2">Item 7</p>
+        <label class="block mb-2">
+          <input type="radio" name="q7" value="A" data-style="Avoiding" required class="mr-2">A) I try to postpone the issue until I have had some time to think about it.
+        </label>
+        <label class="block">
+          <input type="radio" name="q7" value="B" data-style="Compromising" class="mr-2">B) I give up some points in exchange for others.
+        </label>
+      </div>
+    
+      <div class="p-4 bg-white rounded shadow">
+        <p class="font-medium mb-2">Item 8</p>
+        <label class="block mb-2">
+          <input type="radio" name="q8" value="A" data-style="Competing" required class="mr-2">A) I am usually firm in pursuing my goals.
+        </label>
+        <label class="block">
+          <input type="radio" name="q8" value="B" data-style="Collaborating" class="mr-2">B) I attempt to get all concerns and issues immediately out in the open.
+        </label>
+      </div>
+    
+      <div class="p-4 bg-white rounded shadow">
+        <p class="font-medium mb-2">Item 9</p>
+        <label class="block mb-2">
+          <input type="radio" name="q9" value="A" data-style="Avoiding" required class="mr-2">A) I feel that differences are not always worth worrying about.
+        </label>
+        <label class="block">
+          <input type="radio" name="q9" value="B" data-style="Competing" class="mr-2">B) I make some effort to get my way.
+        </label>
+      </div>
+    
+      <div class="p-4 bg-white rounded shadow">
+        <p class="font-medium mb-2">Item 10</p>
+        <label class="block mb-2">
+          <input type="radio" name="q10" value="A" data-style="Competing" required class="mr-2">A) I am firm in pursuing my goals.
+        </label>
+        <label class="block">
+          <input type="radio" name="q10" value="B" data-style="Compromising" class="mr-2">B) I try to find a compromise solution.
+        </label>
+      </div>
+    
+      <div class="p-4 bg-white rounded shadow">
+        <p class="font-medium mb-2">Item 11</p>
+        <label class="block mb-2">
+          <input type="radio" name="q11" value="A" data-style="Collaborating" required class="mr-2">A) I attempt to get all concerns and issues immediately out in the open.
+        </label>
+        <label class="block">
+          <input type="radio" name="q11" value="B" data-style="Accommodating" class="mr-2">B) I might try to soothe the other's feelings and preserve our relationship.
+        </label>
+      </div>
+    
+      <div class="p-4 bg-white rounded shadow">
+        <p class="font-medium mb-2">Item 12</p>
+        <label class="block mb-2">
+          <input type="radio" name="q12" value="A" data-style="Avoiding" required class="mr-2">A) I sometimes avoid taking positions which would create controversy.
+        </label>
+        <label class="block">
+          <input type="radio" name="q12" value="B" data-style="Compromising" class="mr-2">B) I will let another have some of their positions if they let me have some of mine.
+        </label>
+      </div>
+    
+      <div class="p-4 bg-white rounded shadow">
+        <p class="font-medium mb-2">Item 13</p>
+        <label class="block mb-2">
+          <input type="radio" name="q13" value="A" data-style="Compromising" required class="mr-2">A) I propose middle ground.
+        </label>
+        <label class="block">
+          <input type="radio" name="q13" value="B" data-style="Competing" class="mr-2">B) I press to get my points made.
+        </label>
+      </div>
+    
+      <div class="p-4 bg-white rounded shadow">
+        <p class="font-medium mb-2">Item 14</p>
+        <label class="block mb-2">
+          <input type="radio" name="q14" value="A" data-style="Collaborating" required class="mr-2">A) I tell another my ideas and ask them for theirs.
+        </label>
+        <label class="block">
+          <input type="radio" name="q14" value="B" data-style="Competing" class="mr-2">B) I try to show him the logic and benefits of my position.
+        </label>
+      </div>
+    
+      <div class="p-4 bg-white rounded shadow">
+        <p class="font-medium mb-2">Item 15</p>
+        <label class="block mb-2">
+          <input type="radio" name="q15" value="A" data-style="Accommodating" required class="mr-2">A) I might try to soothe the other's feelings and preserve our relationship.
+        </label>
+        <label class="block">
+          <input type="radio" name="q15" value="B" data-style="Avoiding" class="mr-2">B) I try to do what is necessary to avoid tension.
+        </label>
+      </div>
+    
+      <div class="p-4 bg-white rounded shadow">
+        <p class="font-medium mb-2">Item 16</p>
+        <label class="block mb-2">
+          <input type="radio" name="q16" value="A" data-style="Accommodating" required class="mr-2">A) I try not to hurt the other's feelings.
+        </label>
+        <label class="block">
+          <input type="radio" name="q16" value="B" data-style="Competing" class="mr-2">B) I try to convince the other person of the merits of my position.
+        </label>
+      </div>
+    
+      <div class="p-4 bg-white rounded shadow">
+        <p class="font-medium mb-2">Item 17</p>
+        <label class="block mb-2">
+          <input type="radio" name="q17" value="A" data-style="Competing" required class="mr-2">A) I am usually firm in pursuing my goals.
+        </label>
+        <label class="block">
+          <input type="radio" name="q17" value="B" data-style="Avoiding" class="mr-2">B) I try to do what is necessary to avoid useless tensions.
+        </label>
+      </div>
+    
+      <div class="p-4 bg-white rounded shadow">
+        <p class="font-medium mb-2">Item 18</p>
+        <label class="block mb-2">
+          <input type="radio" name="q18" value="A" data-style="Accommodating" required class="mr-2">A) If it makes the other person happy, I might let them maintain their views.
+        </label>
+        <label class="block">
+          <input type="radio" name="q18" value="B" data-style="Compromising" class="mr-2">B) I will let the other person have some of their positions if they let me have some of mine.
+        </label>
+      </div>
+    
+      <div class="p-4 bg-white rounded shadow">
+        <p class="font-medium mb-2">Item 19</p>
+        <label class="block mb-2">
+          <input type="radio" name="q19" value="A" data-style="Collaborating" required class="mr-2">A) I try to get all concerns and issues immediately out in the open.
+        </label>
+        <label class="block">
+          <input type="radio" name="q19" value="B" data-style="Avoiding" class="mr-2">B) I try to postpone the issue until I have had some time to think it over.
+        </label>
+      </div>
+    
+      <div class="p-4 bg-white rounded shadow">
+        <p class="font-medium mb-2">Item 20</p>
+        <label class="block mb-2">
+          <input type="radio" name="q20" value="A" data-style="Collaborating" required class="mr-2">A) I attempt to immediately work through our differences.
+        </label>
+        <label class="block">
+          <input type="radio" name="q20" value="B" data-style="Compromising" class="mr-2">B) I try to find a fair combination of gains and losses for both of us.
+        </label>
+      </div>
+    
+      <div class="p-4 bg-white rounded shadow">
+        <p class="font-medium mb-2">Item 21</p>
+        <label class="block mb-2">
+          <input type="radio" name="q21" value="A" data-style="Accommodating" required class="mr-2">A) In approaching negotiations, I try to be considerate of the other person's feelings.
+        </label>
+        <label class="block">
+          <input type="radio" name="q21" value="B" data-style="Collaborating" class="mr-2">B) I always lean toward a direct discussion of the problem.
+        </label>
+      </div>
+    
+      <div class="p-4 bg-white rounded shadow">
+        <p class="font-medium mb-2">Item 22</p>
+        <label class="block mb-2">
+          <input type="radio" name="q22" value="A" data-style="Compromising" required class="mr-2">A) I try to find a position that is intermediate between mine and another person's.
+        </label>
+        <label class="block">
+          <input type="radio" name="q22" value="B" data-style="Competing" class="mr-2">B) I assert my wishes.
+        </label>
+      </div>
+    
+      <div class="p-4 bg-white rounded shadow">
+        <p class="font-medium mb-2">Item 23</p>
+        <label class="block mb-2">
+          <input type="radio" name="q23" value="A" data-style="Collaborating" required class="mr-2">A) I am often concerned with satisfying all my wishes.
+        </label>
+        <label class="block">
+          <input type="radio" name="q23" value="B" data-style="Avoiding" class="mr-2">B) There are times when I let others take responsibility for solving problems.
+        </label>
+      </div>
+    
+      <div class="p-4 bg-white rounded shadow">
+        <p class="font-medium mb-2">Item 24</p>
+        <label class="block mb-2">
+          <input type="radio" name="q24" value="A" data-style="Accommodating" required class="mr-2">A) If the other's position seems important to them, I would try to meet their wishes.
+        </label>
+        <label class="block">
+          <input type="radio" name="q24" value="B" data-style="Compromising" class="mr-2">B) I try to get the other person to settle for a compromise.
+        </label>
+      </div>
+    
+      <div class="p-4 bg-white rounded shadow">
+        <p class="font-medium mb-2">Item 25</p>
+        <label class="block mb-2">
+          <input type="radio" name="q25" value="A" data-style="Competing" required class="mr-2">A) I try to show the other person the logic and benefits of my position.
+        </label>
+        <label class="block">
+          <input type="radio" name="q25" value="B" data-style="Accommodating" class="mr-2">B) In approaching negotiations, I try to be considerate of the other person's wishes.
+        </label>
+      </div>
+    
+      <div class="p-4 bg-white rounded shadow">
+        <p class="font-medium mb-2">Item 26</p>
+        <label class="block mb-2">
+          <input type="radio" name="q26" value="A" data-style="Compromising" required class="mr-2">A) I propose a middle ground.
+        </label>
+        <label class="block">
+          <input type="radio" name="q26" value="B" data-style="Collaborating" class="mr-2">B) I am nearly always concerned with satisfying all my wishes.
+        </label>
+      </div>
+    
+      <div class="p-4 bg-white rounded shadow">
+        <p class="font-medium mb-2">Item 27</p>
+        <label class="block mb-2">
+          <input type="radio" name="q27" value="A" data-style="Avoiding" required class="mr-2">A) I sometimes avoid taking positions that would create controversy.
+        </label>
+        <label class="block">
+          <input type="radio" name="q27" value="B" data-style="Accommodating" class="mr-2">B) If it makes the other person happy, I might let them maintain their views.
+        </label>
+      </div>
+    
+      <div class="p-4 bg-white rounded shadow">
+        <p class="font-medium mb-2">Item 28</p>
+        <label class="block mb-2">
+          <input type="radio" name="q28" value="A" data-style="Competing" required class="mr-2">A) I am usually firm in pursuing my goals.
+        </label>
+        <label class="block">
+          <input type="radio" name="q28" value="B" data-style="Avoiding" class="mr-2">B) I feel that differences are not always worth worrying about.
+        </label>
+      </div>
+    
+      <div class="p-4 bg-white rounded shadow">
+        <p class="font-medium mb-2">Item 29</p>
+        <label class="block mb-2">
+          <input type="radio" name="q29" value="A" data-style="Compromising" required class="mr-2">A) I propose middle ground.
+        </label>
+        <label class="block">
+          <input type="radio" name="q29" value="B" data-style="Avoiding" class="mr-2">B) I feel that differences are not always worth worrying about.
+        </label>
+      </div>
+    
+      <div class="p-4 bg-white rounded shadow">
+        <p class="font-medium mb-2">Item 30</p>
+        <label class="block mb-2">
+          <input type="radio" name="q30" value="A" data-style="Accommodating" required class="mr-2">A) I try not to hurt the other person's feelings.
+        </label>
+        <label class="block">
+          <input type="radio" name="q30" value="B" data-style="Collaborating" class="mr-2">B) I always share the problem with the other person so that we can work it out.
+        </label>
+      </div>
+    
+    </form>
+    <div class="mt-8 text-center">
+      <button type="submit" form="quizForm" class="bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-700">Submit</button>
+    </div>
+    <div id="result" class="mt-10 text-xl font-semibold text-center"></div>
+  </div>
+
+  <script>
+    document.getElementById("quizForm").addEventListener("submit", function(e) {
+      e.preventDefault();
+      const scores = {
+        Competing: 0,
+        Collaborating: 0,
+        Compromising: 0,
+        Avoiding: 0,
+        Accommodating: 0
+      };
+      const formData = new FormData(this);
+      for (let [name, value] of formData.entries()) {
+        const selected = document.querySelector(`input[name='${name}'][value='${value}']`);
+        const style = selected.dataset.style;
+        scores[style] += 1;
+      }
+      const sorted = Object.entries(scores).sort((a, b) => b[1] - a[1]);
+      const top = sorted[0];
+      document.getElementById("result").innerHTML = `
+        <p>Your dominant conflict mode is <span class="text-blue-600">${top[0]}</span>.</p>
+        <p class="mt-2">Scores:</p>
+        <ul class="mt-1">
+          ${sorted.map(([k, v]) => `<li>${k}: ${v}</li>`).join("")}
+        </ul>
+      `;
+    });
+  </script>
+</body>
+</html>
